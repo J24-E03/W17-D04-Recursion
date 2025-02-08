@@ -59,12 +59,13 @@ public class Main {
         }
         return (str.charAt(0) == c ? 1 : 0) + Main.countOccurrences(str.substring(1), c);
     }
+    //-------------Exercise-6---------------
     //f the string has only one character or is empty, return it as is.
     //Compare the first and second characters:
     //If they are the same, remove one and check the rest.
     //If they are different, keep the first and check the rest.
 
-        public static String removeDuplicates(String s) {
+    public static String removeDuplicates(String s) {
         if(s.length() <= 1) {
             return s;
         }
